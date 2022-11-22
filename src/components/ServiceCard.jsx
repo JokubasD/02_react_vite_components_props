@@ -1,6 +1,5 @@
 import Icon from './UI/Icon';
 function ServiceCard(props) {
-  console.log('props.icon ===', props.icon);
   return (
     <div className='card'>
       <Icon iconName={props.icon} />
