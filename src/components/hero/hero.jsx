@@ -1,5 +1,5 @@
 function Hero(props) {
-  const allClasses = props.color === 'red' ? 'hero red' : 'hero';
+  const allClasses = props.color ? `hero ${props.color}` : 'hero';
   return (
     <div className={allClasses}>
       <h1 className='hero__title'>{props.title}</h1>
